@@ -1,0 +1,310 @@
+/* navbar */
+body{
+    margin:0px;
+    padding:0px;
+    font-family:serif;
+}
+.nav > ol li a
+{
+    border-radius:3px;
+}
+
+.nav li a
+{
+    color:red;
+    
+}
+.nav .active a
+{
+    background:red;
+    color:white;
+}
+.navbar-default {
+    background:red;
+    border-color: #E7E7E7;
+    opacity:.95;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: white;
+    font-size:23px;
+    margin-left:20px;
+    font-weight:bold;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: white;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color:white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: red;
+    background:white;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: red;
+    background:white;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: red;
+    background:white;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: white;
+    border-bottom-color: white;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: red;
+    border-bottom-color: red;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: red;
+    border-bottom-color: red;
+}
+/* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: white;
+    border-width: 1px;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color:white;
+    
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+    
+}
+.navbar-default .navbar-toggle .lines:hover,
+.navbar-default .navbar-toggle .lines:focus 
+{
+    background-color: red;
+    
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: white;
+        background:red;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: red;
+        background:white;
+    }
+    
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a
+    {
+        background: white;
+        color:red;
+    }
+    
+}
+.dropdown-menu > .active > a
+{
+    background: white;
+    color:red;
+}
+
+.navbar-default .navbar-nav
+{
+    margin-right:50px;
+}
+.dropdown-menu
+{
+    opacity:0.9;
+    background:red;
+}
+.dropdown-menu li a
+{
+    color:white;
+}
+.dropdown-menu li a:hover,
+.dropdown-menu li a:focus
+{
+    color:red;
+    background:white;
+}
+
+
+#imgCarousel
+{
+    margin-top: 50px;
+}
+h2.mainhead
+{
+    color:red;
+    font-family:Comic Sans MS;
+    font-weight:bold;
+}
+h2.mainhead2
+{
+    margin-top:70px;
+    color:red;
+    font-family:Comic Sans MS;
+    font-weight:bold;
+}
+h3.mainhead3
+{
+    margin-top:90px;
+    color:red;
+    font-family:Comic Sans MS;
+    font-weight:bold;
+}
+h1.mainhead2
+{
+    margin-top:70px;
+    color:red;
+    font-family:Comic Sans MS;
+    font-weight:bold;
+}
+.container
+{
+    margin-top:40px;
+}
+p.lead
+{
+    background: red;
+    color:white;
+    padding:8px;
+    text-align: center;
+}
+p.lead_form
+{
+    background: red;
+    color:white;
+    padding:8px;
+    text-align: center;
+    margin: 0px;
+    border-radius : 3px;
+    box-shadow:12px 15px 5px #c0c0c0;
+}
+.custDiv
+{
+    
+    margin:2px;
+    border-radius:4px;
+    font-size:15px;
+    font-family:serif;
+    border:1px solid orange;
+    text-align:justify;
+}
+p
+{
+    padding:8px; 
+    font-family: serif;
+    text-align: justify;
+    font-size: 15px;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+    color:red;
+    text-decoration: none;
+    background: red;
+}
+.btn:active,
+.btn.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.btn
+{
+    background: red;
+    color:white
+}
+.btn a
+{
+    color:white;
+}
+.btn:hover
+{
+    background:white;
+}
+.btn:hover > a
+{
+    color:red;
+    text-decoration:none;
+}
+ul.social li{
+    display:inline;
+}
+ul.social img{
+    
+    height:40px;
+}
+ul.social {
+    margin-left: 0px;
+    padding-left:0px;
+    display:inline;
+}
+label
+{
+    color:red;
+}
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline,
+.has-success.radio label,
+.has-success.checkbox label,
+.has-success.radio-inline label,
+.has-success.checkbox-inline label {
+    color: #255625;
+    padding-top:10px;
+    padding-left:5px;
+    
+}
+.help-block {
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    height:40px;
+    color: #3c763d;
+    border-radius:5px;
+    background:#d0e9c6;
+}
+
+.has-success .form-control-feedback {
+    color: #3c763d;
+}
+#out
+{
+    margin: 0px;
+    padding: 0px;
+}
+.breadcrumb li a{
+    color: orange;
+}
+.breadcrumb > .active{
+    text-decoration:underline;
+}
+.breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: orange;
+    content: "|";
+}
+#form
+{
+    background:#f5f5f5;
+    border-radius: 3px;
+    box-shadow:12px 12px 5px #c0c0c0;
+}
+.agreesign
+{
+    color:black;
+}
